@@ -8,7 +8,7 @@ const BillForm = () => {
   const [totalAmount, setTotalAmount] = useState<number>();
   const [noOfPeople, setNoOfPeople] = useState<number>();
   const [splittedAmount, setSplittedAmount] = useState<number>();
-  const [showConfetti, setShowConfetti] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(true);
 
   function splitBill() {
     if (!totalAmount || !noOfPeople) return;

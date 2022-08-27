@@ -13,7 +13,7 @@ const BillResult: FC<Props> = ({ splittedAmount }) => {
       className='prose'
     >
       <h2>Splitted Amount</h2>
-      <h1 className='text-center'>{splittedAmount}</h1>
+      <h1 className='text-center text-5xl'>{splittedAmount}</h1>
     </motion.div>
   );
 };
