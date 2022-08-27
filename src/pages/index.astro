@@ -1,20 +1,8 @@
 ---
+import BaseLayout from "../components/astro/BaseLayout.astro";
 import Card from "../components/astro/Card.astro";
-import Navbar from "../components/astro/Navbar.astro";
 ---
 
-<html lang="en" data-theme="night">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Go Halves - Super simple bill splitter</title>
-	</head>
-	<body>
-		<Navbar />
-		<main class="p-5 h-screen">
-			<Card />
-		</main>
-	</body>
-</html>
+<BaseLayout title="Go Halves - Super simple bill splitter">
+	<Card />
+</BaseLayout>
