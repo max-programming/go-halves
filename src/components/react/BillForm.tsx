@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { createPortal } from 'react-dom';
-import { useTimeout } from 'react-use';
+import useTimeout from 'react-use/lib/useTimeout';
 import Confetti from 'react-confetti';
 import BillResult from './BillResult';
 
